@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Damoim</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+
+<body>
+  <div class="all">
+    <div class="container">
+      <h3>방 만들기</h3>
+      <div class="form">
+        <div class="data">
+          제목
+          <input type="text" name="title" id="title" placeholder="title">
+        </div>
+        <div class="data">
+          시간
+          <input type="time" name="start_time" id="start_time">
+          <input type="time" name="end_time" id="end_time">
+        </div>
+        <div class="data">
+          내용
+          <input type="text" name="content" id="content">
+        </div>
+        <div class="data">
+          정원
+          <input type="number" name="max_member" id="max_member">
+        </div>
+        <div class="data">
+          장소</br>
+          <select name='place' size='5' id="place">
+            <option value='' selected>--선택--</option>
+            <option value='1'>씨름장</option>
+            <option value='2'>농구장</option>
+            <option value='3'>탁구장</option>
+            <option value='4'>체육관</option>
+            <option value='5'>운동장</option>
+          </select>
+          <button class="apply">신청</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+<script src="event.js"></script>
+
+</html>
