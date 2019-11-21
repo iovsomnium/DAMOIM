@@ -15,12 +15,12 @@ next_btn.addEventListener('click', () => {
   } else {
     $.ajax({
       type: "POST",
-      url: "http://localhost:3000/auth/sign-up",
+      url: "http://172.26.0.49:3000/auth/sign-up",
       data: { id, pw, name, grade, room },
       dataType: "json",
       success: (data, status) => {
         alert("회원가입에 성공하였습니다.");
-        // location href
+        location.href = '../login';
       },
       error: (xhr, status, error) => {
         alert("이미 존재하는 회원입니다.");
