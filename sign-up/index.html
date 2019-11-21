@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Damoim</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+
+<body>
+  <div class="title_bar">
+    <img src="logo.png" alt="" width="10%" height="10%">
+    <h4>모두가 쉽게 운동을 할 수 있는,</h3>
+      <h2>다모임 입니다</h2>
+  </div>
+
+
+  <div class="container">
+    <h1>회원가입 정보 입력</h1>
+    <div class="form">
+      <p>이름</p>
+      <input type="text" name="name" id="name" placeholder="이름을 입력해주세요" autocomplete="off">
+    </div>
+    <div class="form">
+      <p>아이디</p>
+      <input type="text" name="id" id="id" placeholder="아이디를 입력해주세요" autocomplete="off">
+    </div>
+    <div class="form">
+      <p>비밀번호</p>
+      <input type="password" name="pw" id="pw" placeholder="비밀번호를 입력해주세요" autocomplete="off">
+    </div>
+    <div class="form">
+      <p>학년</p>
+      <input type="number" name="grade" id="grade" autocomplete="off">
+    </div>
+    <div class="form">
+      <p>반</p>
+      <input type="number" name="room" id="room" autocomplete="off">
+    </div>
+    <div class="promise_form">
+      <div>
+        <button class="show_promise" id="show_promise">서약서 보기</button></br>
+        서약서 동의
+      </div>
+      <input type="checkbox" name="" id="promise" autocomplete="off">
+
+      <div>
+        <button class="sign-up">완료</button>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>나는</p>
+    <p>1. 운동할 때, 다른 친구들에게 남탓을 하지 않을 것</p>
+    <p>2. 운동할 때, 다른 친구들에게 나무라지 않을 것</p>
+    <p>3. 운동할 때, 즐겁게 운동할 것</p>
+    <p></br>위의 약속들을 지킬 것을 약속합니다!</p>
+  </div>
+
+</div>
+
+<script src="modal.js"></script>
+<script src="event.js"></script>
+
+</html>
