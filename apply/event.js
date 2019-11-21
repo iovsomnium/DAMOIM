@@ -25,7 +25,7 @@ apply.addEventListener('click', () => {
     success: (data, status) => {
       alert("방 생성에 성공하였습니다.");
       // main과 redirect
-      // location.href = ""
+      location.href = "../meeting"
     },
     error: (xhr, status, error) => {
       alert("이미 예약이 존재합니다.");

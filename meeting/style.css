@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "NanumSquare";
+  margin-bottom: 10%;
+  background-image: url("./background.png");
+  background-size: cover;
+  color: white;
+}
+
+.con {
+  margin-left: 10%;
+  margin-top: 5%;
+  font-size: 2rem;
+}
+
+.form {
+  padding-top: 2%;
+  width: 60%;
+  font-size: 1.5rem;
+  color: black;
+}
+
+
+.form_mt {
+  margin-top: 2%;
+  background-color: #e8e8e8;
+  padding: 1%;
+  border-radius: 10px;
+}
+
+.gotomain {
+  margin-left: 10%;
+  padding-top: 2%;
+}
+
+.gotoquest {
+  margin-left: 10%;
+  padding-top: 1%;
+}

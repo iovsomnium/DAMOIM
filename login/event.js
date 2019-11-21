@@ -13,7 +13,7 @@ next_btn.addEventListener('click', () => {
       alert("로그인에 성공하였습니다.");
       localStorage.setItem('token', data.data["x-access-token"]);
       // main과 redirect
-      // location.href = ""
+      location.href = "../meeting"
     },
     error: (xhr, status, error) => {
       alert("다시 확인해 주세요.");
