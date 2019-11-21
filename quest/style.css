@@ -1,0 +1,42 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-family: "NanumSquare";
+}
+
+.title_bar {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.quest_form {
+  background-color: rgb(65, 61, 61);
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 10px;
+  color: #e8e8e8;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-top: 0.25%;
+  padding-bottom: 0.25%;
+}
+
+.youtube {
+  margin-top: 2%;
+}
+
+#youtube_form {
+  margin-top: 2%;
+}
+
+.success {
+  margin-top: 2%;
+  width: 60%;
+  padding-top: 0.25%;
+  padding-bottom: 0.25%;
+  border: none;
+  background-color: #e8e8e8;
+  font-size: 1rem;
+  border-radius: 10px;
+  color: gray;
+}
