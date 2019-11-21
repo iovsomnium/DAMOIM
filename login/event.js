@@ -12,6 +12,8 @@ next_btn.addEventListener('click', () => {
     success: (data, status) => {
       alert("로그인에 성공하였습니다.");
       localStorage.setItem('token', data.data["x-access-token"]);
+      // main과 redirect
+      // location.href = ""
     },
     error: (xhr, status, error) => {
       alert("다시 확인해 주세요.");
