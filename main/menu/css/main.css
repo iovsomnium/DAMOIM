@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(59, 8, 199);
+    margin: 0;
+ }
+
+ .header {
+     background: white;
+     height: 100%;
+     position: fixed;
+     
+     width: 20%;
+     left: 0px;
+
+     padding: 5px;
+     float: left;
+     box-sizing: border-box;
+ }
+
+ .content {
+     display: flex;
+     float: right;
+     height: 100%;
+     width: 80%;
+     background-image: url('img/footballfied.png');
+     background-size: cover;
+ }
+
+ .flex {
+     display: block;
+ }
+ .size{
+     width: 68;
+     height: 65;
+ }
+
+ #sidebar {
+     background: #333;
+     width: 300px;
+     height: 100%;
+     top: 0;
+     right: -300px;
+     position: fixed;
+ }
+ #sidebar > ul {
+     margin:0;
+     padding: 0;
+     top:50px;
+     right:70px;
+     position: absolute;
+ }
+ #sidebar li {
+     margin: 0 0 20px;
+     list-style: none;
+ }
+ #sidebar > button {
+     background:white;
+     position: absolute;
+     top: 150px;
+     right: 200px;
+     width: 52px;
+     height: 52px;
+     border: none;
+     color: white;
+ }
+ #menubar{
+     width: 30px;
+     height: 30px;
+ }
+.img{
+    width: 30px;
+    height: 30px;
+}
